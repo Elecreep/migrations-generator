@@ -12,7 +12,7 @@
   "require": {
     "php": "^5.6 || ^7.0 || ^8.0",
     "illuminate/support": "^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
-    "oscarafdev/laravel-4-generators": "dev-laravel-9",
+    "elecreep/laravel-4-generators": "^3.2",
     "doctrine/dbal": "~2.10"
   },
   "autoload": {
@@ -32,12 +32,6 @@
         "Way\\Generators\\GeneratorsServiceProvider",
         "OscarAFDev\\MigrationsGenerator\\MigrationsGeneratorServiceProvider"
       ]
-    }
-  },
-  "repositories": {
-    "laravel-4-generators": {
-      "type": "git",
-      "url": "https://github.com/Elecreep/Laravel-4-Generators.git"
     }
   }
 }
